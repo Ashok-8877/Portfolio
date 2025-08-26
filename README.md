@@ -1,2 +1,4 @@
-PORTFOLIO
-Cloud Engineer with expertise in AWS, Linux, DevOps, Python, and CCNA networking. Skilled in building scalable cloud solutions, automation, infrastructure management, and continuous integration, with a strong foundation in networking and system optimization
+Cloud & DevOps Engineer with expertise in AWS, Linux, and automation of scalable infrastructure.
+Skilled in Infrastructure as Code (IaC), CI/CD pipelines, and Python scripting for DevOps tooling.
+Strong background in system optimization and reliability with CCNA-certified networking knowledge.
+Focused on streamlining operations and accelerating software delivery through modern DevOps practices.
