@@ -281,20 +281,19 @@ section {
 .home-sci a:hover::before {
   width: 100%;
 }
-
 .home-imagehover {
   position: absolute;
-  top: 5%;
+  top: 50%;              /* Center vertically */
   right: 10%;
+  transform: translateY(-50%);  /* Perfect vertical centering */
   width: 320px;
   height: auto;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   background: transparent;
   transition: background 2s, transform 2s, border-radius 2s;
 }
-
 .home-imagehover img {
   height: auto;
   max-height: 300px;
@@ -920,6 +919,7 @@ input:-moz-autofill {
       opacity: 1; /* Restores full opacity when hovered on mobile */
   }
 }
+
 
 
 
