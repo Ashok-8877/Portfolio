@@ -508,18 +508,20 @@ span {
 }
 
 .skills {
-  min-height: 100vh; /* Full screen height */
+  min-height: 100vh;           /* Full screen height */
   display: flex;
-  justify-content: center;   /* Horizontally center */
-  align-items: center;       /* Vertically center */
-  flex-direction: column;    /* Stack title and list */
+  justify-content: center;     /* Center horizontally */
+  align-items: center;         /* Center vertically */
+  flex-direction: column;      /* Stack heading + list */
   background: #081629;
   text-align: center;
 }
 
 .skills h2 {
-  font-size: 4.5rem;   /* Bigger title */
-  margin-bottom: 3rem;
+  font-size: 6rem;             /* Bigger heading */
+  margin-bottom: 4rem;
+  font-weight: 700;
+  color: #ededed;
 }
 
 .skills-list {
@@ -528,12 +530,14 @@ span {
 }
 
 .skills-list li {
-  font-size: 2.2rem;   /* Medium-large size */
-  margin: 1rem 0;
+  font-size: 3rem;             /* Bigger letters */
+  margin: 1.5rem 0;
   color: #ededed;
-  font-weight: 500;
-  letter-spacing: 1px;
+  font-weight: 600;
+  letter-spacing: 2px;         /* Space between letters */
+  text-transform: uppercase;   /* All caps */
 }
+
 
 
 .contact {
@@ -922,4 +926,5 @@ input:-moz-autofill {
       opacity: 1; /* Restores full opacity when hovered on mobile */
   }
 }
+
 
