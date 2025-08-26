@@ -521,7 +521,7 @@ span {
   font-size: 6rem;             /* Bigger heading */
   margin-bottom: 4rem;
   font-weight: 700;
-  color: #ededed;
+  color: #ffffff;
 }
 
 .skills-list {
@@ -536,7 +536,7 @@ span {
 .skills-list li {
   font-size: 3rem;             /* Bigger letters */
   margin: 1.5rem 0;
-  color: #00aaff;
+  color: #ededed;
   font-weight: 600;
   letter-spacing: 2px;         /* Space between letters */
   text-transform: uppercase;   /* All caps */
@@ -931,6 +931,7 @@ input:-moz-autofill {
       opacity: 1; /* Restores full opacity when hovered on mobile */
   }
 }
+
 
 
 
