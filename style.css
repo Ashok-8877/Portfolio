@@ -507,41 +507,46 @@ span {
  
 }
 
-.skills {
-  min-height: 100vh;           /* Full screen height */
-  display: flex;
-  justify-content: center;     /* Center horizontally */
-  align-items: center;         /* Center vertically */
-  flex-direction: column;      /* Stack heading + list */
-  background: #081629;
+.skills-section {
+  padding: 20px;
+  background: #111; /* dark background so white text is visible */
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.skills-section .heading {
+  color: #007BFF; /* Blue heading */
+  font-size: 24px;
+  margin-bottom: 15px;
   text-align: center;
 }
 
-.skills h2 {
-  font-size: 6rem;             /* Bigger heading */
-  margin-bottom: 4rem;
-  font-weight: 700;
-  color: #ffffff;
+.skills-box {
+  padding: 15px;
 }
 
 .skills-list {
   list-style: none;
   padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;         /* Center list items */
 }
 
 .skills-list li {
-  font-size: 3rem;             /* Bigger letters */
-  margin: 1.5rem 0;
-  color: #ededed;
-  font-weight: 600;
-  letter-spacing: 2px;         /* Space between letters */
-  text-transform: uppercase;   /* All caps */
-  text-align: center;          /* Ensure centered text */
+  font-size: 16px;
+  padding: 8px;
+  margin: 6px 0;
+  border-radius: 6px;
 }
+
+.blue-skill {
+  color: #007BFF; /* Blue text for AWS */
+  font-weight: bold;
+}
+
+.white-skill {
+  color: #fff; /* White text for others */
+}
+
 
 
 
@@ -931,6 +936,7 @@ input:-moz-autofill {
       opacity: 1; /* Restores full opacity when hovered on mobile */
   }
 }
+
 
 
 
