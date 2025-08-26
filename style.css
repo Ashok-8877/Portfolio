@@ -506,40 +506,34 @@ span {
   padding-top: .5rem;
  
 }
-
-.skills {
-  min-height: 100vh;           /* Full screen height */
+.skills-section {
+  min-height: 100vh;           
   display: flex;
-  justify-content: center;     /* Center horizontally */
-  align-items: center;         /* Center vertically */
-  flex-direction: column;      /* Stack heading + list */
+  justify-content: center;     
+  align-items: center;         
+  flex-direction: column;      
   background: #081629;
   text-align: center;
-  color: white;                /* Default white for all text */
 }
 
-.skills h2 {
-  font-size: 2.5rem;           /* Medium size heading */
-  margin-bottom: 20px;
+.skills-section .heading {
+  font-size: 3.5rem;           /* Bigger heading */
+  margin-bottom: 25px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #2196f3;              /* Blue color only for heading */
+  color: #2196f3;              /* Blue heading */
 }
 
-.skills ul {
+.skills-list {
   list-style: none;
   padding: 0;
-  font-size: 1.5rem;           /* Medium size list items */
-  color: white;                /* Ensure list stays white */
+  font-size: 2.3rem;           /* Bigger skill items */
+  color: white;                
 }
 
-.skills ul li {
-  margin: 10px 0;
+.skills-list li {
+  margin: 15px 0;
 }
-
-
-
-
 
 .contact {
   min-height: auto;
@@ -927,6 +921,7 @@ input:-moz-autofill {
       opacity: 1; /* Restores full opacity when hovered on mobile */
   }
 }
+
 
 
 
